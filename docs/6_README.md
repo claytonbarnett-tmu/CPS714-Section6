@@ -6,7 +6,7 @@ The following lists available APIs for gamification integration.
 
 ### Rewards Profile
 
-A rewards profile provides a high level summary of points collected over time. The profile `id` is required to preform other operations such as adding points.
+A rewards profile provides a high level summary of points collected over time. The profile `id` is required to perform other operations such as adding points.
 
 **Type**: Server Side Function
 
@@ -27,7 +27,7 @@ interface RewardsProfile {
 }
 ```
 
-### Attendance Reward
+### Attendance Reward (Add Points to User)
 
 A user must receive a defined amount of points when registering for an event. A server side function may be called to allocate points to a user's profile.
 
